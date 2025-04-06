@@ -5,11 +5,16 @@ const languages = [{ value: "ukr", title: "Ukrainian" }];
 export default function Header() {
     const { t, i18n } = useTranslation();
     return (
-        <header className="flex border-b-1 border-slate-200 p-[1rem] items-center justify-between sticky top-0 bg-white">
+        <header className="flex border-b-1 border-slate-200 p-[1rem] items-center justify-between fixed w-[100%] bg-white">
             <h1>{t("Portfolio")}</h1>
             <nav className="flex gap-6">
-                <button>{t("Main Page")}</button>
-                <button>{t("Projects")}</button>
+                <button></button>
+                <a className="flex items-center" href="#">
+                    {t("Main Page")}
+                </a>
+                <a className="flex items-center" href="#projects">
+                    {t("Projects")}
+                </a>
                 <select
                     className="p-2 pl-0"
                     onChange={(e) => i18n.changeLanguage(e.target.value)}
