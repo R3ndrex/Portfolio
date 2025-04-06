@@ -56,11 +56,11 @@ export default function MainContent() {
                     expertise
                 </p>
             </Trans>
-            <h2>{t("My stack")}</h2>
+            <h2 className="bg-red-300 pb-3 pt-3">{t("My stack")}</h2>
             <ul className="flex gap-1">
-                {stack.map((element) => (
-                    <li>
-                        <img src={element.image} alt={element.alt} width="50" />
+                {stack.map(({ image, alt }) => (
+                    <li className="flex items-center" key={alt}>
+                        <img src={image} alt={alt} width="50" />
                     </li>
                 ))}
             </ul>
