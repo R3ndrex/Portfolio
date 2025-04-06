@@ -42,7 +42,7 @@ export default function Stack() {
     const { t } = useTranslation();
     return (
         <section>
-            <h2 className="mb-5 bg-red-300 pb-3 pt-3">{t("My stack")}</h2>
+            <h2 className=" mb-5 text-5xl mb-3 pt-3">{t("My stack")}</h2>
             <ul className="flex gap-1">
                 {stack.map(({ image, alt }) => (
                     <li className="flex items-center" key={alt}>
