@@ -8,10 +8,10 @@ export default function Header() {
         <header className="sticky top-0 bg-white">
             <h1>{t("Portfolio")}</h1>
             <nav>
-                <button>{t("Projects")}</button>
                 <button>{t("Main Page")}</button>
+                <button>{t("Projects")}</button>
                 <select
-                    className="p-2"
+                    className="p-2 pl-0"
                     onChange={(e) => i18n.changeLanguage(e.target.value)}
                     name="languageList"
                     id="languageList"
