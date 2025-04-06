@@ -28,6 +28,14 @@ i18next
                     "My stack": "Мій стек",
                     "Lytvyneko Rostyslav": "Литвиненко Ростислав",
                     Source: "Джерело",
+                    "CV-Generator is a web application for creating and customizing your resume. It allows users to choose from pre-made templates that can be customized to suit their personal preferences.":
+                        "CV-Generator — це веб-додаток для створення та налаштування резюме. Він дозволяє користувачам вибирати готові шаблони, які можна налаштувати відповідно до їхніх особистих уподобань.",
+                    "Shopping Cart Simulator is a simple and user-friendly web application for simulating online shopping. Product data is fetched from the Fake Store API, and the cart allows you to add, remove, and purchase items.":
+                        "Shopping Cart Simulator — це проста та зручна веб-програма для імітації покупок в Інтернеті. Дані про продукт отримуються з API Fake Store, а кошик дозволяє додавати, видаляти та купувати товари.",
+                    Live: "Уживу",
+                    "Hi, Im Rostyslav Lytvynenko.":
+                        "Привіт, я Литвиненко Ростислав",
+                    "Software Engineer": "Інженер-програміст",
                 },
             },
         },

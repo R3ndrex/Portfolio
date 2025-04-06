@@ -59,20 +59,20 @@ export default function MainContent() {
                                     {project.title}
                                 </h3>
                                 <p className="p-5 pl-0">
-                                    {project.description}
+                                    {t(project.description)}
                                 </p>
                                 <div className="flex items-center gap-5">
                                     <a
                                         className="text-xl bg-sky-500 text-white rounded-2xl link pb-2 pt-2 pl-4 pr-4"
                                         href={project.link}
                                     >
-                                        Source
+                                        {t("Source")}
                                     </a>
                                     <a
                                         className="text-xl bg-sky-500 text-white rounded-2xl link pb-2 pt-2 pl-4 pr-4"
                                         href={project.live}
                                     >
-                                        Live
+                                        {t("Live")}
                                     </a>
                                 </div>
                             </li>
