@@ -24,7 +24,7 @@ const projects = [
 export default function MainContent() {
     const { t } = useTranslation();
     return (
-        <main className="w-[50%] self-center flex flex-col gap-5 bg-white ">
+        <main className="w-[70%] self-center flex flex-col gap-5 bg-white ">
             <section>
                 <h2 className="mb-5 text-5xl pb-0 mb-3 pt-3">
                     {t("About Me")}
@@ -45,17 +45,17 @@ export default function MainContent() {
             </section>
             <Stack />
             <section id="projects">
-                <h2 className="mb-5 text-5xl pb-0 mb-3 pt-3">
+                <h2 className="sticky top-[5rem] mb-5 text-5xl pb-0 mb-3 pt-3">
                     {t("Projects")}
                 </h2>
-                <ul className="projects">
+                <ul className="projects flex flex-col gap-5">
                     {projects.map((project) => {
                         return (
-                            <li className="bg-slate-200 rounded-2xl">
+                            <li className="project flex flex-col w-[75%]">
                                 <img
                                     src={project.image}
                                     alt={project.alt}
-                                    width={1000}
+                                    width={800}
                                 />
                                 <h3 className="text-4xl p-5">
                                     {project.title}

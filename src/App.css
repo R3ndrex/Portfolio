@@ -10,3 +10,11 @@
     color: transparent;
     background-clip: text;
 }
+.projects {
+    position: relative;
+}
+.project {
+    position: relative;
+    left: 25%;
+    scroll-margin-top: 2rem;
+}
