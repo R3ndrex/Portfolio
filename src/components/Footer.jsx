@@ -1,3 +1,6 @@
+import { useTranslation } from "react-i18next";
+
 export default function Footer() {
-    return <footer>Lytvyneko Rostyslav 2025</footer>;
+    const { t } = useTranslation();
+    return <footer>{t("Lytvyneko Rostyslav")} 2025</footer>;
 }

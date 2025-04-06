@@ -5,7 +5,8 @@ import VitestImage from "../assets/vitest.svg";
 import CSSImage from "../assets/css_old.svg";
 import HTMLImage from "../assets/javascript.svg";
 import JavaScriptImage from "../assets/html5.svg";
-import { Trans } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
+
 const stack = [
     {
         image: HTMLImage,
@@ -38,10 +39,11 @@ const stack = [
 ];
 
 export default function MainContent() {
+    const { t } = useTranslation();
     return (
-        <main>
-            <h2>About Me</h2>
-            <Trans i18nKey={"AboutText"}>
+        <main className="w-[70ch] ml-auto mr-auto flex flex-col gap-5">
+            <h2 className="bg-red-300 pb-3 pt-3">{t("About Me")}</h2>
+            <Trans i18nKey="AboutText">
                 <p>
                     I am a frontend developer with a strong foundation in HTML,
                     CSS, and JavaScript. I enjoy building intuitive and
@@ -54,7 +56,7 @@ export default function MainContent() {
                     expertise
                 </p>
             </Trans>
-            <h2>My stack:</h2>
+            <h2>{t("My stack")}</h2>
             <ul className="flex gap-1">
                 {stack.map((element) => (
                     <li>
