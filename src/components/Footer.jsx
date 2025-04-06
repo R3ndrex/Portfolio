@@ -3,7 +3,7 @@ import GithubImage from "../assets/github-light.svg";
 export default function Footer() {
     const { t } = useTranslation();
     return (
-        <footer className="flex flex-col items-center mt-5 gap-5 bg-white">
+        <footer className="flex border-t-1 border-slate-200 self-center w-[60%] flex-col items-center pt-5 pb-5 gap-5 bg-white">
             <a
                 href="https://github.com/R3ndrex/Portfolio"
                 target="_blank"
