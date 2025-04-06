@@ -6,7 +6,6 @@ i18next
     .use(initReactI18next)
     .use(LanguageDetector)
     .init({
-        debug: true,
         fallbackLng: "en",
         resources: {
             ukr: {
@@ -28,6 +27,7 @@ i18next
                     "About Me": "Про мене",
                     "My stack": "Мій стек",
                     "Lytvyneko Rostyslav": "Литвиненко Ростислав",
+                    Source: "Джерело",
                 },
             },
         },
