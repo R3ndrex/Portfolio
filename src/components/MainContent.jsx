@@ -41,29 +41,33 @@ const stack = [
 export default function MainContent() {
     const { t } = useTranslation();
     return (
-        <main className="w-[70ch] ml-auto mr-auto flex flex-col gap-5">
-            <h2 className="bg-red-300 pb-3 pt-3">{t("About Me")}</h2>
-            <Trans i18nKey="AboutText">
-                <p>
-                    I am a frontend developer with a strong foundation in HTML,
-                    CSS, and JavaScript. I enjoy building intuitive and
-                    interactive web applications, learning new technologies, and
-                    improving my coding skills. I am focused on mastering React
-                    and frontend best practices. I like solving problems,
-                    optimizing user experiences, and writing clean, maintainable
-                    code. Looking for a web development position where I can
-                    contribute to impactful projects and enhance my frontend
-                    expertise
-                </p>
-            </Trans>
-            <h2 className="bg-red-300 pb-3 pt-3">{t("My stack")}</h2>
-            <ul className="flex gap-1">
-                {stack.map(({ image, alt }) => (
-                    <li className="flex items-center" key={alt}>
-                        <img src={image} alt={alt} width="50" />
-                    </li>
-                ))}
-            </ul>
+        <main className="w-[60%] self-center flex flex-col gap-5 bg-white ">
+            <section>
+                <h2 className="mb-5 bg-red-300 pb-3 pt-3">{t("About Me")}</h2>
+                <Trans i18nKey="AboutText">
+                    <p>
+                        I am a frontend developer with a strong foundation in
+                        HTML, CSS, and JavaScript. I enjoy building intuitive
+                        and interactive web applications, learning new
+                        technologies, and improving my coding skills. I am
+                        focused on mastering React and frontend best practices.
+                        I like solving problems, optimizing user experiences,
+                        and writing clean, maintainable code. Looking for a web
+                        development position where I can contribute to impactful
+                        projects and enhance my frontend expertise
+                    </p>
+                </Trans>
+            </section>
+            <section>
+                <h2 className="mb-5 bg-red-300 pb-3 pt-3">{t("My stack")}</h2>
+                <ul className="flex gap-1">
+                    {stack.map(({ image, alt }) => (
+                        <li className="flex items-center" key={alt}>
+                            <img src={image} alt={alt} width="50" />
+                        </li>
+                    ))}
+                </ul>
+            </section>
         </main>
     );
 }
