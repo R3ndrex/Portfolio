@@ -3,11 +3,11 @@ import GithubImage from "../assets/github-light.svg";
 export default function Footer() {
     const { t } = useTranslation();
     return (
-        <footer className="flex border-t-1 border-slate-200 self-center w-[60%] flex-col items-center pt-5 pb-5 gap-5 bg-white">
+        <footer className="flex border-t-1 border-slate-200 items-center justify-center pt-5 pb-5 gap-5 bg-white">
             <a
                 href="https://github.com/R3ndrex/Portfolio"
                 target="_blank"
-                className="flex justify-center gap-5"
+                className="flex justify-center gap-2"
             >
                 <span className="flex items-center">{t("Source")}</span>
                 <img src={GithubImage} alt="github-image" width="50" />
