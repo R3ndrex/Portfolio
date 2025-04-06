@@ -18,3 +18,9 @@
     left: 25%;
     scroll-margin-top: 2rem;
 }
+.link {
+    border-bottom: 3px solid rgb(39, 110, 151);
+}
+.link:hover {
+    border-bottom: none;
+}
