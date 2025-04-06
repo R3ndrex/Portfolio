@@ -65,12 +65,14 @@ export default function MainContent() {
                                     <a
                                         className="text-xl bg-sky-500 text-white rounded-2xl link pb-2 pt-2 pl-4 pr-4"
                                         href={project.link}
+                                        target="_blank"
                                     >
                                         {t("Source")}
                                     </a>
                                     <a
                                         className="text-xl bg-sky-500 text-white rounded-2xl link pb-2 pt-2 pl-4 pr-4"
                                         href={project.live}
+                                        target="_blank"
                                     >
                                         {t("Live")}
                                     </a>
