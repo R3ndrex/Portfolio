@@ -5,7 +5,7 @@ const languages = [{ value: "ukr", title: "Ukrainian" }];
 export default function Header() {
     const { t, i18n } = useTranslation();
     return (
-        <header className="flex border-b-1 border-slate-200 p-[1rem] items-center justify-between fixed w-[100%] bg-white">
+        <header className="flex border-b-1 z-1 border-slate-200 p-[1rem] items-center justify-between fixed w-[100%] bg-white">
             <h1>{t("Portfolio")}</h1>
             <nav className="flex gap-6">
                 <button></button>
