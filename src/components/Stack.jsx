@@ -3,8 +3,8 @@ import ReactRouterImage from "../assets/reactrouter.svg";
 import ViteImage from "../assets/vitejs.svg";
 import VitestImage from "../assets/vitest.svg";
 import CSSImage from "../assets/css_old.svg";
-import HTMLImage from "../assets/javascript.svg";
-import JavaScriptImage from "../assets/html5.svg";
+import JavaScriptImage from "../assets/javascript.svg";
+import HTMLImage from "../assets/html5.svg";
 import { useTranslation } from "react-i18next";
 
 const stack = [
