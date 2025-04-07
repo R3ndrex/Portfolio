@@ -1,6 +1,7 @@
 import { Trans, useTranslation } from "react-i18next";
 import Stack from "./Stack";
 import Projects from "./Projects";
+import Contact from "./Contact";
 
 export default function MainContent() {
     const { t } = useTranslation();
@@ -29,6 +30,7 @@ export default function MainContent() {
             </section>
             <Stack />
             <Projects />
+            <Contact />
         </main>
     );
 }

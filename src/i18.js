@@ -38,6 +38,8 @@ i18next
                     "Software Engineer": "Інженер-програміст",
                     "This site provides a custom google search with ability to set safe mode removing all 18+ content. Each search is displayed on a unique page using react router, page title changes depending on a search prompt":
                         "Цей сайт надає спеціалізований пошук Google із можливістю встановити безпечний режим, видаляючи весь вміст віком від 18 років. Кожен пошуковий запит відображається на унікальній сторінці за допомогою React Router, заголовок сторінки змінюється залежно від пошуку",
+                    "Feel free to contact me or check me out on other platforms":
+                        "Можете Зв'язатися зі мною або продивитися мене на інших платформах",
                 },
             },
         },
