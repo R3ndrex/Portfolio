@@ -47,7 +47,9 @@ export default function Stack() {
                 {stack.map(({ image, alt }) => (
                     <li className="flex items-center" key={alt}>
                         <img src={image} alt={alt} width="50" />
-                        <span className="tooltip">{alt}</span>
+                        <span className="tooltip absolute bg-black text-white top-[100%] p-5 hidden z-1 capitalize">
+                            {alt}
+                        </span>
                     </li>
                 ))}
             </ul>
