@@ -6,7 +6,7 @@ export default function Header() {
     const { t, i18n } = useTranslation();
     return (
         <header className="flex border-b-1 z-1 border-slate-200 p-[1rem] items-center justify-between fixed w-[100%] bg-white">
-            <h1>{t("Rostyslav Lytvynenko")}</h1>
+            <h1>R3ndrex</h1>
             <nav className="flex gap-6">
                 <a className="flex items-center" href="#">
                     {t("Main Page")}

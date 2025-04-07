@@ -36,7 +36,6 @@ i18next
                     "Hi, Im Rostyslav Lytvynenko.":
                         "Привіт, я Литвиненко Ростислав",
                     "Software Engineer": "Інженер-програміст",
-                    "Rostyslav Lytvynenko": "Литвиненко Ростислав",
                 },
             },
         },
