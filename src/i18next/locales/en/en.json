@@ -1,0 +1,22 @@
+{
+    "Portfolio": "Portfolio",
+    "English": "English",
+    "Ukrainian": "Ukrainian",
+    "Projects": "Projects",
+    "Main Page": "Main Page",
+    "Language": "Language",
+    "AboutText": "I am a frontend developer with a strong foundation in HTML, CSS, and JavaScript. I enjoy building intuitive and interactive web applications, learning new technologies, and improving my coding skills. I am focused on mastering React and frontend best practices. I like solving problems, optimizing user experiences, and writing clean, maintainable code. Looking for a web development position where I can contribute to impactful projects and enhance my frontend expertise",
+    "About Me": "About Me",
+    "My stack": "My stack",
+    "Lytvyneko Rostyslav": "Lytvyneko Rostyslav",
+    "Source": "Source",
+    "CV-Generator is a web application for creating and customizing your resume. It allows users to choose from pre-made templates that can be customized to suit their personal preferences.": "CV-Generator is a web application for creating and customizing your resume. It allows users to choose from pre-made templates that can be customized to suit their personal preferences.",
+    "Shopping Cart Simulator is a simple and user-friendly web application for simulating online shopping. Product data is fetched from the Fake Store API, and the cart allows you to add, remove, and purchase items.": "Shopping Cart Simulator is a simple and user-friendly web application for simulating online shopping. Product data is fetched from the Fake Store API, and the cart allows you to add, remove, and purchase items.",
+    "Live": "Live",
+    "Hi, I'm Rostyslav Lytvynenko.": "Hi, I'm Rostyslav Lytvynenko.",
+    "Software Engineer": "Software Engineer",
+    "This site provides a custom google search with ability to set safe mode removing all 18+ content. Each search is displayed on a unique page using react router, page title changes depending on a search prompt": "This site provides a custom google search with ability to set safe mode removing all 18+ content. Each search is displayed on a unique page using react router, page title changes depending on a search prompt",
+    "Feel free to contact me or check me out on other platforms": "Feel free to contact me or check me out on other platforms",
+    "Contact": "Contact",
+    "Russian": "Russian"
+}

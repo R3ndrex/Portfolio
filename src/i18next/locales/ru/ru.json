@@ -1,0 +1,22 @@
+{
+    "Portfolio": "Портфолио",
+    "English": "Английский",
+    "Ukrainian": "Украинский",
+    "Projects": "Проекты",
+    "Main Page": "Главная",
+    "Language": "Язык",
+    "AboutText": "Я фронтенд-разработчик с прочной базой в HTML, CSS и JavaScript. Мне нравится создавать интуитивно понятные и интерактивные веб-приложения, изучать новые технологии и улучшать свои навыки программирования. Я сосредоточен на освоении React и лучших практик фронтенда. Мне нравится решать проблемы, оптимизировать пользовательский опыт и писать чистый, поддерживаемый код. Ищу должность веб-разработчика, где я мог бы внести свой вклад в важные проекты и улучшить свои навыки фронтенда",
+    "About Me": "Про меня",
+    "My stack": "Мой стек",
+    "Lytvyneko Rostyslav": "Литвиненко Ростислав",
+    "Source": "Источник",
+    "CV-Generator is a web application for creating and customizing your resume. It allows users to choose from pre-made templates that can be customized to suit their personal preferences.": "CV-Generator — это веб-приложение для создания и настройки резюме. Оно позволяет пользователям выбирать из готовых шаблонов, которые можно настраивать в соответствии с личными предпочтениями.",
+    "Shopping Cart Simulator is a simple and user-friendly web application for simulating online shopping. Product data is fetched from the Fake Store API, and the cart allows you to add, remove, and purchase items.": "Shopping Cart Simulator — это простое и удобное веб-приложение для имитации онлайн-покупок. Данные о товарах извлекаются из API Fake Store, а корзина позволяет добавлять, удалять и приобретать товары.",
+    "Live": "В живую",
+    "Hi, I'm Rostyslav Lytvynenko.": "Привет, Я Литвиненко Ростислав.",
+    "Software Engineer": "Инженер-программист",
+    "This site provides a custom google search with ability to set safe mode removing all 18+ content. Each search is displayed on a unique page using react router, page title changes depending on a search prompt": "Этот сайт предоставляет пользовательский поиск Google с возможностью установки безопасного режима, удаляющего весь 18+ контент. Каждый поиск отображается на уникальной странице с использованием React Router, заголовок страницы меняется в зависимости от поискового запроса",
+    "Feel free to contact me or check me out on other platforms": "Не стесняйтесь обращаться ко мне или искать меня на других платформах",
+    "Contact": "Связаться со мной",
+    "Russian": "Русский"
+}
