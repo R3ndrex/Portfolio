@@ -13,7 +13,7 @@ function App() {
                 <h1>
                     <span>
                         {" "}
-                        {t("Hi, Im Rostyslav Lytvynenko.")} <br />
+                        {t("Hi, I'm Rostyslav Lytvynenko.")} <br />
                     </span>
                     <span className="title-profession">
                         {t("Software Engineer")}

@@ -33,7 +33,7 @@ i18next
                     "Shopping Cart Simulator is a simple and user-friendly web application for simulating online shopping. Product data is fetched from the Fake Store API, and the cart allows you to add, remove, and purchase items.":
                         "Shopping Cart Simulator — це проста та зручна веб-програма для імітації покупок в Інтернеті. Дані про продукт отримуються з API Fake Store, а кошик дозволяє додавати, видаляти та купувати товари.",
                     Live: "Уживу",
-                    "Hi, Im Rostyslav Lytvynenko.":
+                    "Hi, I'm Rostyslav Lytvynenko.":
                         "Привіт, я Литвиненко Ростислав",
                     "Software Engineer": "Інженер-програміст",
                     "This site provides a custom google search with ability to set safe mode removing all 18+ content. Each search is displayed on a unique page using react router, page title changes depending on a search prompt":
