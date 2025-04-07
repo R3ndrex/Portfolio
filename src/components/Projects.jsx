@@ -36,39 +36,43 @@ const projects = [
 export default function Projects() {
     const { t } = useTranslation();
     return (
-        <section id="projects">
-            <h2 className="project-title top-[5rem] mb-5 text-5xl pb-0 mb-3 pt-3">
-                {t("Projects")}
-            </h2>
-            <ul className="relative flex flex-col gap-5">
-                {projects.map((project) => (
-                    <li className="project p-5 flex flex-col">
-                        <img
-                            src={project.image}
-                            loading="lazy"
-                            alt={project.alt}
-                        />
-                        <h3 className="text-4xl p-5 pl-0">{project.title}</h3>
-                        <p className="p-5 pl-0">{t(project.description)}</p>
-                        <div className="flex items-center gap-5">
-                            <a
-                                className="text-xl bg-sky-500 text-white rounded-2xl link pb-2 pt-2 pl-4 pr-4"
-                                href={project.link}
-                                target="_blank"
-                            >
-                                {t("Source")}
-                            </a>
-                            <a
-                                className="text-xl bg-sky-500 text-white rounded-2xl link pb-2 pt-2 pl-4 pr-4"
-                                href={project.live}
-                                target="_blank"
-                            >
-                                {t("Live")}
-                            </a>
-                        </div>
-                    </li>
-                ))}
-            </ul>
+        <section className="projects bg-slate-100">
+            <div className="w-[70%] ml-auto mr-auto p-7">
+                <h2 className="project-title top-[5rem] mb-5 text-5xl pb-0 mb-3 pt-3">
+                    {t("Projects")}
+                </h2>
+                <ul className="relative flex flex-col gap-5">
+                    {projects.map((project) => (
+                        <li className="project p-5 flex flex-col">
+                            <img
+                                src={project.image}
+                                loading="lazy"
+                                alt={project.alt}
+                            />
+                            <h3 className="text-4xl p-5 pl-0">
+                                {project.title}
+                            </h3>
+                            <p className="p-5 pl-0">{t(project.description)}</p>
+                            <div className="flex items-center gap-5">
+                                <a
+                                    className="text-xl bg-sky-500 text-white rounded-2xl link pb-2 pt-2 pl-4 pr-4"
+                                    href={project.link}
+                                    target="_blank"
+                                >
+                                    {t("Source")}
+                                </a>
+                                <a
+                                    className="text-xl bg-sky-500 text-white rounded-2xl link pb-2 pt-2 pl-4 pr-4"
+                                    href={project.live}
+                                    target="_blank"
+                                >
+                                    {t("Live")}
+                                </a>
+                            </div>
+                        </li>
+                    ))}
+                </ul>
+            </div>
         </section>
     );
 }

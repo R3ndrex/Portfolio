@@ -41,18 +41,20 @@ const stack = [
 export default function Stack() {
     const { t } = useTranslation();
     return (
-        <section>
-            <h2 className=" mb-5 text-5xl mb-3 pt-3">{t("My stack")}</h2>
-            <ul className="flex gap-3 relative">
-                {stack.map(({ image, alt }) => (
-                    <li className="flex items-center" key={alt}>
-                        <img src={image} alt={alt} width="50" />
-                        <span className="tooltip absolute bg-black text-white top-[100%] p-5 hidden z-1 capitalize">
-                            {alt}
-                        </span>
-                    </li>
-                ))}
-            </ul>
+        <section className="bg-slate-100">
+            <div className="w-[60%] ml-auto mr-auto p-7">
+                <h2 className=" mb-5 text-5xl mb-3 pt-3">{t("My stack")}</h2>
+                <ul className="flex gap-3 relative">
+                    {stack.map(({ image, alt }) => (
+                        <li className="flex items-center" key={alt}>
+                            <img src={image} alt={alt} width="50" />
+                            <span className="tooltip absolute bg-black text-white top-[100%] p-5 hidden z-1 capitalize">
+                                {alt}
+                            </span>
+                        </li>
+                    ))}
+                </ul>
+            </div>
         </section>
     );
 }
