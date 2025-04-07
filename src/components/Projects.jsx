@@ -36,7 +36,7 @@ const projects = [
 export default function Projects() {
     const { t } = useTranslation();
     return (
-        <section className="projects bg-slate-100">
+        <section id="projects" className="bg-slate-100">
             <div className="w-[70%] ml-auto mr-auto p-7">
                 <h2 className="project-title top-[5rem] mb-5 text-5xl pb-0 mb-3 pt-3">
                     {t("Projects")}
