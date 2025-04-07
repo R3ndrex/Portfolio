@@ -10,31 +10,31 @@ import { useTranslation } from "react-i18next";
 const stack = [
     {
         image: HTMLImage,
-        alt: "html5-image",
+        alt: "html",
     },
     {
         image: CSSImage,
-        alt: "css-image",
+        alt: "css",
     },
     {
         image: JavaScriptImage,
-        alt: "javascript-image",
+        alt: "javascript",
     },
     {
         image: ReactImage,
-        alt: "react-image",
+        alt: "react",
     },
     {
         image: ReactRouterImage,
-        alt: "react--router-image",
+        alt: "react-router",
     },
     {
         image: ViteImage,
-        alt: "vite-image",
+        alt: "vite",
     },
     {
         image: VitestImage,
-        alt: "vitest-image",
+        alt: "vitest",
     },
 ];
 
@@ -43,10 +43,11 @@ export default function Stack() {
     return (
         <section>
             <h2 className=" mb-5 text-5xl mb-3 pt-3">{t("My stack")}</h2>
-            <ul className="flex gap-1">
+            <ul className="flex gap-3 relative">
                 {stack.map(({ image, alt }) => (
                     <li className="flex items-center" key={alt}>
                         <img src={image} alt={alt} width="50" />
+                        <span className="tooltip">{alt}</span>
                     </li>
                 ))}
             </ul>
