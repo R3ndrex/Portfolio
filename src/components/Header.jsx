@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 
-const languages = [{ value: "ukr", title: "Ukrainian" }];
+const languages = [{ value: "uk", title: "Ukrainian" }];
 
 export default function Header() {
     const { t, i18n } = useTranslation();
