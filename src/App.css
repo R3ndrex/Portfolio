@@ -81,7 +81,7 @@ img:hover + .tooltip {
     }
 }
 @media screen and (width<500px) {
-    main {
+    section > div {
         width: 90%;
     }
     header {
