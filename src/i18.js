@@ -14,7 +14,7 @@ i18next
                     English: "Англійська",
                     Ukrainian: "Українська",
                     Projects: "Проєкти",
-                    "Main Page": "Головна сторінка",
+                    "Main Page": "Головна",
                     Language: "Мова",
                     AboutText: `Я розробник фронтенду з міцною основою в HTML,
                     CSS i JavaScript. Мені подобається будувати інтуїтивно зрозумілі та
@@ -39,7 +39,7 @@ i18next
                     "This site provides a custom google search with ability to set safe mode removing all 18+ content. Each search is displayed on a unique page using react router, page title changes depending on a search prompt":
                         "Цей сайт надає спеціалізований пошук Google із можливістю встановити безпечний режим, видаляючи весь вміст віком від 18 років. Кожен пошуковий запит відображається на унікальній сторінці за допомогою React Router, заголовок сторінки змінюється залежно від пошуку",
                     "Feel free to contact me or check me out on other platforms":
-                        "Можете Зв'язатися зі мною або продивитися мене на інших платформах",
+                        "Можете зв'язатися зі мною або продивитися мене на інших платформах",
                     Contact: "Зв'язатися зі мною",
                 },
             },
