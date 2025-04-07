@@ -11,7 +11,7 @@ export default function MainContent() {
                     {t("About Me")}
                 </h2>
                 <Trans i18nKey="AboutText">
-                    <p>
+                    <p className="text-xl">
                         I am a frontend developer with a strong foundation in
                         HTML, CSS, and JavaScript. I enjoy building intuitive
                         and interactive web applications, learning new
