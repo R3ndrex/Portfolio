@@ -29,11 +29,21 @@ export default function Contact() {
                         "Feel free to contact me or check me out on other platforms"
                     )}
                 </p>
-                <ul>
+                <ul className="border-white border-4 border-l-slate-300 p-5">
                     {contact.map(({ icon, data }) => (
                         <li className="flex gap-5 text-xl">
                             <img src={icon} alt="contact-icon" width={20} />{" "}
-                            <span>{data}</span>
+                            <a
+                                className="text-sky-400"
+                                href={
+                                    data.includes("gmail.com")
+                                        ? `https://mail.google.com/mail/?view=cm&to=${data}`
+                                        : data
+                                }
+                                target="_blank"
+                            >
+                                {data}
+                            </a>
                         </li>
                     ))}
                 </ul>
