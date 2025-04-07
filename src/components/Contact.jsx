@@ -34,7 +34,7 @@ export default function Contact() {
                         <li className="flex gap-5 text-xl">
                             <img src={icon} alt="contact-icon" width={20} />{" "}
                             <a
-                                className="text-sky-400"
+                                className="text-sky-400 break-all"
                                 href={
                                     data.includes("gmail.com")
                                         ? `https://mail.google.com/mail/?view=cm&to=${data}`
