@@ -10,7 +10,13 @@ export default function Footer() {
                 className="flex justify-center gap-2"
             >
                 <span className="flex items-center">{t("Source")}</span>
-                <img src={GithubImage} alt="github-image" width="50" />
+                <img
+                    src={GithubImage}
+                    className="github-image"
+                    alt="github-image"
+                    width="30"
+                    loading="lazy"
+                />
             </a>
             <div>{t("Lytvyneko Rostyslav")} 2025</div>
         </footer>

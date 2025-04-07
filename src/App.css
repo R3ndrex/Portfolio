@@ -10,17 +10,27 @@
     color: transparent;
     background-clip: text;
 }
-.projects {
-    position: relative;
-}
-.project {
-    position: relative;
-    left: 25%;
-    scroll-margin-top: 2rem;
-}
+
 .link {
     border-bottom: 3px solid rgb(39, 110, 151);
 }
 .link:hover {
     border-bottom: none;
+}
+.github-image {
+    transition: transform 1s ease-in-out;
+}
+.github-image:hover {
+    transform: rotate(-360deg);
+}
+@media screen and (width>1000px) {
+    .project {
+        width: 70%;
+        position: relative;
+        left: 25%;
+        scroll-margin-top: 2rem;
+    }
+    .project-title {
+        position: sticky;
+    }
 }
