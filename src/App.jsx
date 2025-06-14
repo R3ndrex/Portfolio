@@ -9,7 +9,7 @@ function App() {
     return (
         <>
             <Header />
-            <div className="mb-[5rem] text-6xl title text-center h-[100vh] bg-white flex justify-center items-center">
+            <div className="mb-[5rem] title text-center h-[100vh] bg-white flex justify-center items-center">
                 <h1>
                     <span>
                         {" "}

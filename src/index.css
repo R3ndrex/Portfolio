@@ -8,6 +8,24 @@ main {
 h2 {
     text-transform: capitalize;
 }
+h1 span {
+    font-size: 3.75rem;
+}
+@media screen and (width<1200px) {
+    h1 span {
+        font-size: 3rem;
+    }
+}
+@media screen and (width<600px) {
+    h1 span {
+        font-size: 2.5rem;
+    }
+}
+@media screen and (width<400px) {
+    h1 span {
+        font-size: 2.25rem;
+    }
+}
 
 ::-webkit-scrollbar {
     width: 10px;
