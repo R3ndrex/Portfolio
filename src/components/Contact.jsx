@@ -23,7 +23,7 @@ export default function Contact() {
     return (
         <section className="bg-slate-100">
             <div className="w-[60%] ml-auto mr-auto p-7">
-                <h2 className="mb-5 text-5xl pb-0 mb-3 pt-3">{t("Contact")}</h2>
+                <h2 className="mb-5 text-5xl pb-0 pt-3">{t("Contact")}</h2>
                 <p className="text-xl pb-5">
                     {t(
                         "Feel free to contact me or check me out on other platforms"
